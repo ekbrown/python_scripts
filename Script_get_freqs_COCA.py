@@ -3,6 +3,7 @@ A Python script to webscrape the frequency of search terms in the Corpus of Cont
 Earl Kjar Brown, ekbrown byu edu (add appropriate characters to create email)
 """
 
+
 import random, requests
 from lxml import html
 from time import sleep
