@@ -26,7 +26,6 @@ nap_len = 2
 start = time.time()
 
 # create driver object to control Google Chrome
-# SPECIFY THE PATHWAY ON YOUR MACHINE TO CHROMEDRIVER
 driver = webdriver.Chrome(executable_path = path_to_chromedriver)
 # other browsers can be used too: http://www.seleniumhq.org/download/
 
