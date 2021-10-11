@@ -42,7 +42,7 @@ def get_exact_phrase_twitter(exact_phrase, path_webdriver, path_file, lang = "en
         last_height = new_height
 
     ### now that the scrolling has finished, get the tweets
-    tweets = driver.find_elements_by_xpath("//div[@data-testid='tweet']")
+    tweets = driver.find_elements_by_xpath("//article[@data-testid='tweet']")
 
     ### create collector data frame
     to_push = pd.DataFrame(columns=['username', 'date', 'text'])
